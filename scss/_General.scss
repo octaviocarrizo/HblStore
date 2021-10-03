@@ -8,3 +8,15 @@ body {
 	background-color: grey;
 	margin: 0px 3px 0px 3px;
 } 
+.ParteDeAbajoColor{
+	background-color: white;
+    padding: 1px;
+    margin: 15px 0px -11px 0px;
+}
+.Social{
+	margin: 0px 0px -30px 0px;
+	text-align: right;
+		&--TamañoIndex{
+		width:40px;
+		}
+}

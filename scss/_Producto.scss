@@ -16,26 +16,32 @@
 } 
 } 
 .PosicionProducto{
-	position: absolute;
-    bottom: 344px;
-    left: 860px;
-	&--Precio{
     position: absolute;
-    bottom: 75px;
-    left: 175px;
-    font-size: 33px;
-	}
+    bottom: 160px;
+    left: 998px;
+    padding: 1px 103px 178px 14px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: #f9f9f9;
+	&--Precio{
+    position: relative;
+    bottom: -21px;
+    left: 0px;
+    width: 120px;
+    font-size: 30px;
+    }
 	&--cuotas{
-	position: absolute;
-    bottom: 51px;
-    left: 178px;
-    font-size: 24px;
+    position: relative;
+    bottom: -2px;
+    left: 3px;
+    width: 240px;
+    font-size: 22px;
     color: #5bb15b;
 	}
 	&--Stock{
-	position: absolute;
-    bottom: 213px;
-    left: 470px;
+    position: relative;
+    bottom: -1px;
+    left: 184px;
     font-size: 18px;
     color: #ffffff;
     width: 155px;
@@ -45,17 +51,17 @@
     padding: 6px;
 	}
 	&--Nombre{
-	position: absolute;
-    width: 500px;
-    bottom: 201px;
-    right: -280px;
-    font-size: 40px;
+    position: relative;
+    width: 236px;
+    bottom: 0px;
+    right: -2px;
+    font-size: 20px;
 	}
 }
 .DemostracionDelProducto{
     border: 1px solid;
     display: grid;
-    width: 1100px;
+    width: 970px;
     padding: 59px 0px 57px 29px;
     margin-top: 100px;
     border-radius: 4px;
@@ -64,6 +70,7 @@
     grid-column-gap: 0px;
     grid-row-gap: 19px;
     margin: 0px 395px 60px;
+    background: #e4e4e4;
 	&--estilo{
 	margin:0px 120px;
 	}
@@ -71,21 +78,25 @@
 	border: 1px solid #ffffff;
     border-radius: 10px;
     background: white;
+    cursor: pointer;
 	}
 	&--estilo3{
 	border: 1px solid #ffffff;
     border-radius: 10px;
     background: white;
+    cursor: pointer;
 	}
 	&--estilo4{
 	border: 1px solid #ffffff;
     border-radius: 10px;
     background: white;
+    cursor: pointer;
 	}
 	&--estilo5{
 	border: 1px solid #ffffff;
     border-radius: 10px;
     background: white;
+    cursor: pointer;
 	}	
 }
 
@@ -95,7 +106,7 @@
     bottom: 170px;
 	&--Carrito{
     position: absolute;
-    left: 98px;
+    left: -65px;
     bottom: 86px;
     width: 160px;
     font-size: 17px;
@@ -107,12 +118,12 @@
 	}
 	&--Cantidad{
     position: absolute;
-    left: 118px;
+    left: -44px;
     bottom: 41px;
     width: 125px;
     font-size: 15px;
     color: #000;
-    background-color: #00bcd4;
+    background-color: #c3f5fb;
     border-color: #b4b8bd00;
     border-radius: 6px;
     padding: 7px;
@@ -120,7 +131,7 @@
 	&--BotonDeComprar{
 	position: absolute;
     bottom: -3px;
-    left: 134px;
+    left: -24px;
     font-size: 17px;
     color: #fff;
     background-color: #007bff;

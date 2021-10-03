@@ -22,24 +22,28 @@
 }
  
 .PosicionProducto{
-	position: relative;
-    bottom: 1px;
+    position: relative;
+    bottom: -115px;
     left: 1px;
+    padding: 0px;
+    border: 1px;
+    border-radius: 0px;
+    background: transparent;
 	&--Precio{
-	position: relative;
-    bottom: -430px;
-    left: 52px;
+    position: relative;
+    bottom: -165px;
+    left: 44px;
     font-size: 32px;
-    width: 100px;
+    width: 170px;
 	}
 	&--cuotas{
     position: relative;
-    bottom: -406px;
-    left: 60px;
+    bottom: -143px;
     right: 0px;
+    left: 24px;
     font-size: 24px;
     color: #5bb15b;
-    width: 100px
+    width: 185px;
 	}
 	&--Stock{
 	position: relative;
@@ -54,10 +58,10 @@
     padding: 6px;
 	}
 	&--Nombre{
-	position: relative;
-    width: 80px;
-    bottom: 110px;
-    right: -195px;
+    position: relative;
+    width: 289px;
+    bottom: 121px;
+    right: -82px;
     font-size: 22px;
 	}
 }
@@ -67,11 +71,11 @@
     border-radius: 4px;
     grid-template-columns: 70px;
     grid-template-rows: 0px 70px 70px 70px 70px;
-    margin: 4px 0px 215px;
+    margin: -202px 0px 184px;
     border: none;
     padding: 0;
-    width: 350px;
-	&--estilo{
+    width: 375px;
+    &--estilo{
 	margin:70px 114px;
 	}
 	&--estilo2{
